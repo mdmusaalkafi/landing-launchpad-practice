@@ -38,3 +38,15 @@
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
+/* Action */
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+.action-left, .action-right {
+  flex: 1;
+  min-width: 300px;
+}
+
