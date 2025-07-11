@@ -78,3 +78,84 @@
   font-size: 1.6rem;
   color: #ccc;
 }
+/* Feedback */
+/* Base Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Feedback Section */
+.feedback {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.feedback h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.feedback p {
+    font-size: 1.125rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Reviews Container */
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Review Card */
+.review {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+}
+
+/* Stars */
+.review::before {
+    content: "★★★★★";
+    color: #fbbf24; /* Tailwind-style yellow */
+    font-size: 1.125rem;
+    display: block;
+    margin-bottom: 16px;
+}
+
+/* Review Text */
+.review p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Reviewer Info */
+.reviewer {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.reviewer::before {
+    content: '';
+    width: 36px;
+    height: 36px;
+    background-image: url('https://i.pravatar.cc/36'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 12px;
+}
