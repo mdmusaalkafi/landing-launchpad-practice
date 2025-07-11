@@ -291,7 +291,7 @@ footer p {
     color: #4f46e5; /* Indigo color on hover */
 }
 .banner, .navbar {
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
