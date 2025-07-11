@@ -245,5 +245,49 @@ body {
     border-radius: 8px;
     background-color: #f9f9f9;
     color: #333;
-    resize: none;
+}
+/* Footer Section */
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    border-top: 1px solid #e2e8f0; /* Light border to separate from content */
+}
+
+/* Footer Logo */
+footer h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4f46e5; /* Indigo color */
+    margin-bottom: 16px;
+}
+
+/* Footer Description */
+footer p {
+    font-size: 1.125rem;
+    color: #6b7280; /* Gray color */
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer Links Container */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Footer Links */
+.footer-links a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6b7280; /* Gray color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #4f46e5; /* Indigo color on hover */
 }
