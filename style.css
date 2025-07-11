@@ -192,3 +192,58 @@ body {
     border-radius: 36px;
     padding-top 500px;
 }
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f7f9fc;
+    flex-wrap: wrap;
+}
+
+/* Left Side - Heading */
+.contact-left {
+    flex: 1;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.contact-left h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: left;
+}
+
+/* Right Side - Form */
+.contact-right {
+    flex: 1;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.contact-right label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    resize: none;
+}
